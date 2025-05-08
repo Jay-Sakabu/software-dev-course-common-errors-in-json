@@ -47,24 +47,24 @@ but it contains multiple syntax errors that prevent it from being parsed.
 const invalidBookingJSON = `
 {
   "hotelName": "Grand City Hotel",
-  "checkInDate": "2024-05-15"
+  "checkInDate": "2024-05-15" //Missing comma
   "checkOutDate": "2024-05-20",
   "guests": [
     {
-      name: "Alice Johnson",
+      name: "Alice Johnson", "name" property not in quotes
       "age": 30,
       "email": "alice.johnson@example.com"
     },
     {
       "name": "Bob Smith",
-      "age": undefined,
+      "age": undefined, // Can't use undefined as a value type
       "email": "bob.smith@example"
     }
   ],
   "roomDetails": {
     "type": "Suite",
     "pricePerNight": 200,
-    "amenities": ["WiFi", "Breakfast", "Parking",]
+    "amenities": ["WiFi", "Breakfast", "Parking",] // trailing comma
   }
 }
 `;
