@@ -10,7 +10,7 @@
       },
       {
         "name": "Bob Smith",
-        "age": "undefined",
+        "age": null,
         "email": "bob.smith@example"
       }
     ],

@@ -83,6 +83,19 @@ const invalidBookingJSON = `
 */
 
 
+//LIST OF CORRECTIONS
+/*
+1. Line 50: "checkInDate": "2024-05-15" //Missing comma, commas need to exist after one entry preceding another, solution added a comma
+2. Line 54:  name: "Alice Johnson", "name" property not in quotes, all properties need to have quotes around them, added double quotes
+3. Line 60:       "age": undefined, // Can't use undefined as a value type, undefined is not a valid JSON data type, changed value to null
+4. Line 67:     "amenities": ["WiFi", "Breakfast", "Parking",] // trailing comma, trailing commas aren't allowed in JSON, removed comma
+
+
+*/
+
+
+
+
 // ============================================
 // 🤔 Follow-Up Questions
 // ============================================
