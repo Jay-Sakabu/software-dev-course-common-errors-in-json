@@ -104,11 +104,15 @@ const invalidBookingJSON = `
 💬 Reflect and answer the following:
 
 1️⃣ What tools or techniques did you use to identify the errors?
+  I  used VSCode and https://jsonlint.com/ to let me know what errors were happening and then corrected them as I found the errors.
 
 2️⃣ How did you confirm that your corrected JSON file was valid?
+  https://jsonlint.com/ and seeing there were no errors in vscode
 
 3️⃣ Which errors were the most difficult to spot? Why?
+  None of the errors were too hard to spot, some comma stuff though was a little tricky
 
 4️⃣ What strategies can help you avoid these kinds of errors in the future?
    (e.g., syntax highlighting, linters, writing JSON by example)
+   Remembering how JSON works and using syntax higlighting to ensure that it's correct as I go
 */
